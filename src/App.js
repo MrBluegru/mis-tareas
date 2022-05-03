@@ -2,7 +2,7 @@ import './App.css';
 import freeCodeCampLogo from './img/freecodecamp-logo.png';
 import mrbluelogo from './img/Letras_blancas.png';
 import logo from './img/Logo.png';
-import Tarea from './componentes/Tarea.js';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -29,9 +29,8 @@ function App() {
       </div>
       <div className='tareas-listas-principal'>
           <h1>Mis Tareas</h1>
-          <Tarea texto='Aprender React' />
+          <ListaDeTareas />
       </div>
-
 
     </div>
   );
