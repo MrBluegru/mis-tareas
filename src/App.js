@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import freeCodeCampLogo from './img/freecodecamp-logo.png';
+import mrbluelogo from './img/Letras_blancas.png';
+import logo from './img/Logo.png';
+import Tarea from './componentes/Tarea.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className='logo-con-letras'>
+
+      <img
+        className='letras'
+        src={mrbluelogo}
+        alt='Letras del logo de Mr. Blue' />
+
+      <img
+        className='logo'
+        src={logo}
+        alt='Logo de Mr. Blue' />
+      
+    </div>
+
+      <div className='freecodecamp-logo-contenedor'>
+        <img 
+          src={freeCodeCampLogo}
+          className='freecodecamp-logo' />
+      </div>
+      <div className='tareas-listas-principal'>
+          <h1>Mis Tareas</h1>
+          <Tarea texto='Aprender React' />
+      </div>
+
+
     </div>
   );
 }
