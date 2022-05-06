@@ -1,7 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from './img/freecodecamp-logo.png';
-import mrbluelogo from './img/Letras_blancas.png';
-import logo from './img/Logo.png';
+import mrbluelogo from './img/Letras_blanca.png';
 import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
@@ -15,11 +14,6 @@ function App() {
         src={mrbluelogo}
         alt='Letras del logo de Mr. Blue' />
 
-      <img
-        className='logo'
-        src={logo}
-        alt='Logo de Mr. Blue' />
-      
     </div>
 
       <div className='freecodecamp-logo-contenedor'>
